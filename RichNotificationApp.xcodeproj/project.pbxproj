@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A4B122AE28DB6072007154F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B122AD28DB6072007154F3 /* AppDelegate.swift */; };
 		A4B122B028DB6072007154F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B122AF28DB6072007154F3 /* SceneDelegate.swift */; };
-		A4B122B228DB6072007154F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B122B128DB6072007154F3 /* ViewController.swift */; };
+		A4B122B228DB6072007154F3 /* BigPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B122B128DB6072007154F3 /* BigPictureViewController.swift */; };
 		A4B122B528DB6072007154F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B122B328DB6072007154F3 /* Main.storyboard */; };
 		A4B122B728DB6072007154F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B122B628DB6072007154F3 /* Assets.xcassets */; };
 		A4B122BA28DB6072007154F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B122B828DB6072007154F3 /* LaunchScreen.storyboard */; };
+		A4B122C228DB6599007154F3 /* BigPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B122C128DB6599007154F3 /* BigPictureViewController.xib */; };
+		A4B122C428DB65E5007154F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B122C328DB65E5007154F3 /* ViewController.swift */; };
+		A4B122C928DB6BF2007154F3 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B122C728DB6BF2007154F3 /* RatingViewController.swift */; };
+		A4B122CA28DB6BF2007154F3 /* RatingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B122C828DB6BF2007154F3 /* RatingViewController.xib */; };
+		A4F11DAF28DC484F00B13CD9 /* RatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F11DAE28DC484F00B13CD9 /* RatingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A4B122AA28DB6072007154F3 /* BigPictureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigPictureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B122AA28DB6072007154F3 /* RichNotificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichNotificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B122AD28DB6072007154F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4B122AF28DB6072007154F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4B122B128DB6072007154F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4B122B128DB6072007154F3 /* BigPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigPictureViewController.swift; sourceTree = "<group>"; };
 		A4B122B428DB6072007154F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4B122B628DB6072007154F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4B122B928DB6072007154F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4B122BB28DB6072007154F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B122C128DB6599007154F3 /* BigPictureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BigPictureViewController.xib; sourceTree = "<group>"; };
+		A4B122C328DB65E5007154F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4B122C728DB6BF2007154F3 /* RatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		A4B122C828DB6BF2007154F3 /* RatingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingViewController.xib; sourceTree = "<group>"; };
+		A4F11DAE28DC484F00B13CD9 /* RatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +50,7 @@
 		A4B122A128DB6072007154F3 = {
 			isa = PBXGroup;
 			children = (
-				A4B122AC28DB6072007154F3 /* BigPictureApp */,
+				A4B122AC28DB6072007154F3 /* RichNotificationApp */,
 				A4B122AB28DB6072007154F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +58,60 @@
 		A4B122AB28DB6072007154F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4B122AA28DB6072007154F3 /* BigPictureApp.app */,
+				A4B122AA28DB6072007154F3 /* RichNotificationApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4B122AC28DB6072007154F3 /* BigPictureApp */ = {
+		A4B122AC28DB6072007154F3 /* RichNotificationApp */ = {
 			isa = PBXGroup;
 			children = (
+				A4B122C628DB6BA8007154F3 /* Rating */,
+				A4B122C528DB6B67007154F3 /* BigPicture */,
 				A4B122AD28DB6072007154F3 /* AppDelegate.swift */,
 				A4B122AF28DB6072007154F3 /* SceneDelegate.swift */,
-				A4B122B128DB6072007154F3 /* ViewController.swift */,
 				A4B122B328DB6072007154F3 /* Main.storyboard */,
+				A4B122C328DB65E5007154F3 /* ViewController.swift */,
 				A4B122B628DB6072007154F3 /* Assets.xcassets */,
 				A4B122B828DB6072007154F3 /* LaunchScreen.storyboard */,
 				A4B122BB28DB6072007154F3 /* Info.plist */,
 			);
-			path = BigPictureApp;
+			path = RichNotificationApp;
+			sourceTree = "<group>";
+		};
+		A4B122C528DB6B67007154F3 /* BigPicture */ = {
+			isa = PBXGroup;
+			children = (
+				A4B122B128DB6072007154F3 /* BigPictureViewController.swift */,
+				A4B122C128DB6599007154F3 /* BigPictureViewController.xib */,
+			);
+			path = BigPicture;
+			sourceTree = "<group>";
+		};
+		A4B122C628DB6BA8007154F3 /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				A4F11DAD28DC478700B13CD9 /* CustomView */,
+				A4B122C728DB6BF2007154F3 /* RatingViewController.swift */,
+				A4B122C828DB6BF2007154F3 /* RatingViewController.xib */,
+			);
+			path = Rating;
+			sourceTree = "<group>";
+		};
+		A4F11DAD28DC478700B13CD9 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A4F11DAE28DC484F00B13CD9 /* RatingButton.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4B122A928DB6072007154F3 /* BigPictureApp */ = {
+		A4B122A928DB6072007154F3 /* RichNotificationApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4B122BE28DB6072007154F3 /* Build configuration list for PBXNativeTarget "BigPictureApp" */;
+			buildConfigurationList = A4B122BE28DB6072007154F3 /* Build configuration list for PBXNativeTarget "RichNotificationApp" */;
 			buildPhases = (
 				A4B122A628DB6072007154F3 /* Sources */,
 				A4B122A728DB6072007154F3 /* Frameworks */,
@@ -82,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = BigPictureApp;
+			name = RichNotificationApp;
 			productName = BigPictureApp;
-			productReference = A4B122AA28DB6072007154F3 /* BigPictureApp.app */;
+			productReference = A4B122AA28DB6072007154F3 /* RichNotificationApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -93,7 +132,6 @@
 		A4B122A228DB6072007154F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
@@ -102,8 +140,8 @@
 					};
 				};
 			};
-			buildConfigurationList = A4B122A528DB6072007154F3 /* Build configuration list for PBXProject "BigPictureApp" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = A4B122A528DB6072007154F3 /* Build configuration list for PBXProject "RichNotificationApp" */;
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -115,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4B122A928DB6072007154F3 /* BigPictureApp */,
+				A4B122A928DB6072007154F3 /* RichNotificationApp */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +165,9 @@
 			files = (
 				A4B122BA28DB6072007154F3 /* LaunchScreen.storyboard in Resources */,
 				A4B122B728DB6072007154F3 /* Assets.xcassets in Resources */,
+				A4B122C228DB6599007154F3 /* BigPictureViewController.xib in Resources */,
 				A4B122B528DB6072007154F3 /* Main.storyboard in Resources */,
+				A4B122CA28DB6BF2007154F3 /* RatingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4B122B228DB6072007154F3 /* ViewController.swift in Sources */,
+				A4B122B228DB6072007154F3 /* BigPictureViewController.swift in Sources */,
+				A4B122C928DB6BF2007154F3 /* RatingViewController.swift in Sources */,
 				A4B122AE28DB6072007154F3 /* AppDelegate.swift in Sources */,
+				A4B122C428DB65E5007154F3 /* ViewController.swift in Sources */,
+				A4F11DAF28DC484F00B13CD9 /* RatingButton.swift in Sources */,
 				A4B122B028DB6072007154F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,7 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BigPictureApp/Info.plist;
+				INFOPLIST_FILE = RichNotificationApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -301,9 +344,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = IOS.BigPictureApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BigPictureApp/Info.plist;
+				INFOPLIST_FILE = RichNotificationApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,16 +374,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = IOS.BigPictureApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4B122A528DB6072007154F3 /* Build configuration list for PBXProject "BigPictureApp" */ = {
+		A4B122A528DB6072007154F3 /* Build configuration list for PBXProject "RichNotificationApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4B122BC28DB6072007154F3 /* Debug */,
@@ -346,7 +395,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4B122BE28DB6072007154F3 /* Build configuration list for PBXNativeTarget "BigPictureApp" */ = {
+		A4B122BE28DB6072007154F3 /* Build configuration list for PBXNativeTarget "RichNotificationApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4B122BF28DB6072007154F3 /* Debug */,
