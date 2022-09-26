@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A41081A328E1F0CE002F4820 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41081A228E1F0CE002F4820 /* UserNotifications.framework */; };
+		A41081A528E1F0CE002F4820 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41081A428E1F0CE002F4820 /* UserNotificationsUI.framework */; };
+		A41081A828E1F0CE002F4820 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41081A728E1F0CE002F4820 /* NotificationViewController.swift */; };
+		A41081AF28E1F0CE002F4820 /* NotificationContent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A41081A028E1F0CE002F4820 /* NotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A4B122AE28DB6072007154F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B122AD28DB6072007154F3 /* AppDelegate.swift */; };
 		A4B122B028DB6072007154F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B122AF28DB6072007154F3 /* SceneDelegate.swift */; };
 		A4B122B228DB6072007154F3 /* BigPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B122B128DB6072007154F3 /* BigPictureViewController.swift */; };
@@ -20,7 +24,36 @@
 		A4F11DAF28DC484F00B13CD9 /* RatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F11DAE28DC484F00B13CD9 /* RatingButton.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A41081AD28E1F0CE002F4820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4B122A228DB6072007154F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A410819F28E1F0CE002F4820;
+			remoteInfo = NotificationContent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A41081B028E1F0CE002F4820 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A41081AF28E1F0CE002F4820 /* NotificationContent.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A41081A028E1F0CE002F4820 /* NotificationContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41081A228E1F0CE002F4820 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		A41081A428E1F0CE002F4820 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		A41081A728E1F0CE002F4820 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		A41081AC28E1F0CE002F4820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4B122AA28DB6072007154F3 /* RichNotificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichNotificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B122AD28DB6072007154F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4B122AF28DB6072007154F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +70,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A410819D28E1F0CE002F4820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41081A528E1F0CE002F4820 /* UserNotificationsUI.framework in Frameworks */,
+				A41081A328E1F0CE002F4820 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4B122A728DB6072007154F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,10 +89,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A41081A128E1F0CE002F4820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A41081A228E1F0CE002F4820 /* UserNotifications.framework */,
+				A41081A428E1F0CE002F4820 /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A41081A628E1F0CE002F4820 /* NotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				A41081A728E1F0CE002F4820 /* NotificationViewController.swift */,
+				A41081AC28E1F0CE002F4820 /* Info.plist */,
+			);
+			path = NotificationContent;
+			sourceTree = "<group>";
+		};
 		A4B122A128DB6072007154F3 = {
 			isa = PBXGroup;
 			children = (
 				A4B122AC28DB6072007154F3 /* RichNotificationApp */,
+				A41081A628E1F0CE002F4820 /* NotificationContent */,
+				A41081A128E1F0CE002F4820 /* Frameworks */,
 				A4B122AB28DB6072007154F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				A4B122AA28DB6072007154F3 /* RichNotificationApp.app */,
+				A41081A028E1F0CE002F4820 /* NotificationContent.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +172,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A410819F28E1F0CE002F4820 /* NotificationContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A41081B328E1F0CE002F4820 /* Build configuration list for PBXNativeTarget "NotificationContent" */;
+			buildPhases = (
+				A410819C28E1F0CE002F4820 /* Sources */,
+				A410819D28E1F0CE002F4820 /* Frameworks */,
+				A410819E28E1F0CE002F4820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationContent;
+			productName = NotificationContent;
+			productReference = A41081A028E1F0CE002F4820 /* NotificationContent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		A4B122A928DB6072007154F3 /* RichNotificationApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4B122BE28DB6072007154F3 /* Build configuration list for PBXNativeTarget "RichNotificationApp" */;
@@ -116,10 +196,12 @@
 				A4B122A628DB6072007154F3 /* Sources */,
 				A4B122A728DB6072007154F3 /* Frameworks */,
 				A4B122A828DB6072007154F3 /* Resources */,
+				A41081B028E1F0CE002F4820 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A41081AE28E1F0CE002F4820 /* PBXTargetDependency */,
 			);
 			name = RichNotificationApp;
 			productName = BigPictureApp;
@@ -135,6 +217,9 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					A410819F28E1F0CE002F4820 = {
+						CreatedOnToolsVersion = 14.0;
+					};
 					A4B122A928DB6072007154F3 = {
 						CreatedOnToolsVersion = 14.0;
 					};
@@ -154,11 +239,19 @@
 			projectRoot = "";
 			targets = (
 				A4B122A928DB6072007154F3 /* RichNotificationApp */,
+				A410819F28E1F0CE002F4820 /* NotificationContent */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A410819E28E1F0CE002F4820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4B122A828DB6072007154F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,6 +267,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A410819C28E1F0CE002F4820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41081A828E1F0CE002F4820 /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4B122A628DB6072007154F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -188,6 +289,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A41081AE28E1F0CE002F4820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A410819F28E1F0CE002F4820 /* NotificationContent */;
+			targetProxy = A41081AD28E1F0CE002F4820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A4B122B328DB6072007154F3 /* Main.storyboard */ = {
@@ -209,6 +318,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A41081B128E1F0CE002F4820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z532W7ANP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationContent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationContent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobio.sdk.RichPushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = DEV_RichPushNotification_APP_GROUP;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A41081B228E1F0CE002F4820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z532W7ANP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationContent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationContent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobio.sdk.RichPushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = DEV_RichPushNotification_APP_GROUP;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A4B122BC28DB6072007154F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -326,10 +495,14 @@
 		A4B122BF28DB6072007154F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z532W7ANP2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RichNotificationApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -342,8 +515,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = IOS.BigPictureApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobio.sdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = DEVSDK;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -356,10 +531,14 @@
 		A4B122C028DB6072007154F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z532W7ANP2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RichNotificationApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -372,8 +551,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = IOS.BigPictureApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobio.sdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = DEVSDK;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -386,6 +567,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A41081B328E1F0CE002F4820 /* Build configuration list for PBXNativeTarget "NotificationContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41081B128E1F0CE002F4820 /* Debug */,
+				A41081B228E1F0CE002F4820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A4B122A528DB6072007154F3 /* Build configuration list for PBXProject "RichNotificationApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
